@@ -1,17 +1,17 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+'use client'
+
+import * as React from 'react'
+import ThemeDropdown from './theme-dropdown'
+import { UserButton } from '@clerk/nextjs'
 
 export default function TopMenu() {
   return (
     <header className="w-full">
       <nav className="mt-8 flex justify-between items-center">
         <h3 className="text-4xl font-bold">trackIT</h3>
-        <div>
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
+        <div className="flex items-center gap-x-4">
+          <ThemeDropdown />
+          <UserButton />
         </div>
       </nav>
     </header>
