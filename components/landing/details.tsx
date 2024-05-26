@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Button } from '../ui/button'
 
 export default function Details() {
@@ -7,7 +8,9 @@ export default function Details() {
         Your streamlined approach form managing today’s task, helping you stay
         organized and focused
       </p>
-      <Button className="w-full mt-5">Get Started</Button>
+      <Button className="w-full mt-5">
+        <Link href="/my-tasks">Get Started</Link>
+      </Button>
     </section>
   )
 }
