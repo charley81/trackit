@@ -6,10 +6,10 @@ import { UserButton } from '@clerk/nextjs'
 
 export default function TopMenu() {
   return (
-    <header className="w-full">
+    <header>
       <nav className="mt-8 flex justify-between items-center">
         <h3 className="text-4xl font-bold">trackIT</h3>
-        <div className="flex items-center gap-x-4">
+        <div className="flex item-center gap-x-4">
           <ThemeDropdown />
           <UserButton />
         </div>
