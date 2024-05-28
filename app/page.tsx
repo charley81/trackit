@@ -1,6 +1,4 @@
 import Details from '@/components/landing/details'
-import Footer from '@/components/shared/footer'
-import TopMenu from '@/components/shared/top-menu'
 import Image from 'next/image'
 
 export default function Home() {
