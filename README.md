@@ -4,7 +4,12 @@
 
 ## TODO:
 
-- [] add clerk
-- [] setup protected route
 - [] setup prisma
+- [] create task
+- [] read all task
+- [] edit task
+- [] delete task
+- [] setup protected route
 - [] setup posthog
+- [] e2e testing
+- [] default login

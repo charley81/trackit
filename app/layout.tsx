@@ -22,7 +22,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${inconsolata.className} flex flex-col min-h-screen bg-background text-foreground px-4 max-w-2xl mx-auto md:max-w-3xl lg:max-w-6xl`}
+          className={`${inconsolata.className} bg-background text-foreground `}
         >
           <ThemeProvider
             attribute="class"
@@ -30,9 +30,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <TopMenu />
-            <main className="flex-1">{children}</main>
-            <Footer />
+            <div className="flex flex-col min-h-screen px-4 max-w-2xl mx-auto md:max-w-3xl lg:max-w-6xl">
+              <TopMenu />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
           </ThemeProvider>
         </body>
       </html>
