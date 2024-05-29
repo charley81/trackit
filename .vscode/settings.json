@@ -1,3 +1,10 @@
 {
-  "cSpell.ignoreWords": ["lucide", "nextjs", "posthog", "trpc"]
+  "cSpell.ignoreWords": [
+    "clsx",
+    "lucide",
+    "nextjs",
+    "posthog",
+    "tailwindcss",
+    "trpc"
+  ]
 }
