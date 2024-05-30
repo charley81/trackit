@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning={true}>
         <body
           className={`${inconsolata.className} bg-background text-foreground `}
         >
