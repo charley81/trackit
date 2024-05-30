@@ -1,10 +1,12 @@
 {
   "cSpell.ignoreWords": [
     "clsx",
+    "hookform",
     "lucide",
     "nextjs",
     "posthog",
     "tailwindcss",
+    "trackit",
     "trpc"
   ]
 }
